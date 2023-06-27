@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <title>Dashboard</title>
+          <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+       <div class="head">
+          <div class="navbar">
+                    <img src="ps.jpg" class="logo">
+
+          <ul id="menu">
+                    <li><a href="">Game Controllers</a></li>
+                    <li><a href="">VR Accessories</a></li>
+                    <li><a href="">Media Remotes</a></li>
+                    <li><a href="">Other</a></li>
+          </ul>
+
+          <div class="menu">
+                    <i class="fa-solid fa-bars" onclick="togglemenu( )"></i>
+          </div>
+
+          </div>
+
+          <div class="content">
+                <div class="row-1">    
+                    <h2>PS4 V2 <br> Dualshock 4</h2>
+                    <h3>Wireless Controllers For PlayStation 4</h3>
+                    <h4>$34.5</h4>
+                    <button>Buy Now</button>
+                    </div> 
+                    <div class="row-2">
+                              <img src="pad.jpg" class="pad">
+                     </div>
+
+          </div>
+
+          <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+          </div>
+
+
+
+          </div>
+
+          <script>
+                    var menu = document.getElementById("menu");
+
+                    menu.style.maxHeight = "0px";
+
+                    function togglemenu(){
+                           if(menu.style.maxHeight ==  "0px") 
+                           {
+                              menu.style.maxHeight ="130px"
+                           }  
+                           else 
+                           {
+                              menu.style.maxHeight ="0px"
+                           }
+                    }
+          </script>
+        
+                   
+           
+          
+</body>
+</html>
